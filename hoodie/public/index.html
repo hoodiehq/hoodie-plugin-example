@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hoodie Email</title>
+
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <h1>Send an email with Hoodie</h1>
+
+    <p id="error"></p>
+
+    <form>
+      <p>
+        <label>
+          Recipient<br>
+          <input name="to" type="email">
+        </label>
+      </p>
+      <p>
+        <label>
+          Subject<br>
+          <input name="subject">
+        </label>
+      </p>
+      <p>
+        <label>
+          Text<br>
+          <textarea name="text"></textarea>
+        </label>
+      </p>
+      <p>
+        <button type="submit">
+          send
+        </button>
+      </p>
+    </form>
+
+    <script src="/hoodie/client.js"></script>
+    <script src="./email-form.js"></script>
+  </body>
+</html>

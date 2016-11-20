@@ -1,0 +1,23 @@
+{
+  "name": "plugin-example",
+  "version": "1.0.0",
+  "description": "> Dummy code to inform & discuss the implementation of 3rd party plugins",
+  "main": "index.js",
+  "scripts": {
+    "start": "hoodie --public hoodie/public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoodiehq/hoodie-plugin-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoodiehq/hoodie-plugin-example/issues"
+  },
+  "homepage": "https://github.com/hoodiehq/hoodie-plugin-example#readme",
+  "devDependencies": {
+    "hoodie": "^24.3.4"
+  }
+}

@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #fff;
+  color: #111;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#error {
+  display: none;
+
+  background: #c00;
+  padding: 8px 12px;
+  font-weight: bold;
+  color: #fff
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  font: inherit;
+  padding: 8px 12px;
+}
+
+textarea {
+  min-height: 150px;
+}
+
+button {
+  font: inherit;
+  padding: 8px 12px;
+  background: #222;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+}
