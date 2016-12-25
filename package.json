@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/hoodiehq/hoodie-plugin-example#readme",
   "devDependencies": {
-    "hoodie": "^24.3.4"
+    "hoodie": "^25.0.0"
   }
 }
