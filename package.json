@@ -25,7 +25,7 @@
   "devDependencies": {
     "hoodie": "^28.0.0",
     "standard": "^10.0.2",
-    "semantic-release": "^7.0.1"
+    "semantic-release": "^8.0.0"
   },
   "hoodie": {
     "name": "hello-world",
