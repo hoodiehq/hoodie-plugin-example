@@ -1,5 +1,5 @@
 // this plugin addds a new method hoodie.hello() to the client which accepts
-// and object with {greeting, name} properties. It is sending a request to the
+// an object with {greeting, name} properties. It is sending a request to the
 // server: `POST /hoodie/hello-world/api` which responds with the greeting text.
 // hoodie.hello() returns a promise and resolves with the greeting text if
 // successful, otherwise rejects with an error
